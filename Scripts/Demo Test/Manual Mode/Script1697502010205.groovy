@@ -27,7 +27,7 @@ WebUI.setEncryptedText(findTestObject('Page_OrangeHRM/input_Password_password'),
 
 WebUI.click(findTestObject('Page_OrangeHRM/button_Login'))
 
-WebUI.delay(2)
+WebUI.refresh(FailureHandling.STOP_ON_FAILURE)
 
 WebUI.closeBrowser()
 
