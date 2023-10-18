@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC001 - Login Successfull - Data Driven Variable</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1ecc4ae8-7c79-40aa-aff1-b4c8ff8d4936</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a62394b1-1515-41ca-99db-1ab1e89b0a49</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>1a4ad519-d6d6-4be5-9e98-e1b151379cbc</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ece204bf-7763-42ad-b36a-014851b2cd5b</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'http://jupiterprime-react-dev.s3-website.us-east-2.amazonaws.com'</defaultValue>
+      <description></description>
+      <id>a62394b1-1515-41ca-99db-1ab1e89b0a49</id>
+      <masked>false</masked>
+      <name>URL</name>
+   </variable>
+   <variable>
+      <defaultValue>'Chocco'</defaultValue>
+      <description></description>
+      <id>1a4ad519-d6d6-4be5-9e98-e1b151379cbc</id>
+      <masked>false</masked>
+      <name>Username</name>
+   </variable>
+   <variable>
+      <defaultValue>'letmein'</defaultValue>
+      <description></description>
+      <id>ece204bf-7763-42ad-b36a-014851b2cd5b</id>
+      <masked>false</masked>
+      <name>Password</name>
+   </variable>
+</TestCaseEntity>

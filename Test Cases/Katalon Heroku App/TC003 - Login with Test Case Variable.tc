@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Demo test case</description>
+   <name>TC003 - Login with Test Case Variable</name>
+   <tag>@Smoke, @Sanity</tag>
+   <comment></comment>
+   <testCaseGuid>81d8071e-13a8-45b0-8a3c-277314f1b791</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b631d8b4-150d-4af3-a1b4-261d1df441f7</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>cae0903a-5464-4fc3-8753-e68e9655fb66</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>9bb697de-3942-49b0-b7f0-d970000dcbc7</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'https://katalon-demo-cura.herokuapp.com/'</defaultValue>
+      <description></description>
+      <id>b631d8b4-150d-4af3-a1b4-261d1df441f7</id>
+      <masked>false</masked>
+      <name>URL</name>
+   </variable>
+   <variable>
+      <defaultValue>'John Doe'</defaultValue>
+      <description></description>
+      <id>cae0903a-5464-4fc3-8753-e68e9655fb66</id>
+      <masked>false</masked>
+      <name>Username</name>
+   </variable>
+   <variable>
+      <defaultValue>'NotAPassword'</defaultValue>
+      <description></description>
+      <id>9bb697de-3942-49b0-b7f0-d970000dcbc7</id>
+      <masked>false</masked>
+      <name>Password</name>
+   </variable>
+</TestCaseEntity>

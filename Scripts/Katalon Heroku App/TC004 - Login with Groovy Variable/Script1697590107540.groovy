@@ -19,9 +19,19 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
+//Define and initialize variable without data type
+def expected_title = 'Appointment Confirmation'
+
 WebUI.navigateToUrl('https://katalon-demo-cura.herokuapp.com/')
 
+//Maximise window
+WebUI.maximizeWindow()
+
 WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/a_Make Appointment'))
+
+WebUI.verifyTextPresent('Please login to make appointment.', false)
+
+WebUI.verifyTextPresent('\\((\\d){3}\\) [0-9]{3}-1KMS', true)
 
 WebUI.setText(findTestObject('Object Repository/Page_CURA Healthcare Service/input_Username_username'), 'John Doe')
 
@@ -46,7 +56,8 @@ WebUI.setText(findTestObject('Object Repository/Page_CURA Healthcare Service/tex
 
 WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/button_Book Appointment'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/Page_CURA Healthcare Service/h2_Appointment Confirmation'), 'Appointment Confirmation')
+String actual_title = WebUI.verifyElementText(findTestObject('Object Repository/Page_CURA Healthcare Service/h2_Appointment Confirmation'), 
+    'Appointment Confirmation')
 
 WebUI.closeBrowser()
 

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Demo test case</description>
+   <name>TC004 - Login with Groovy Variable</name>
+   <tag>@Smoke, @Sanity</tag>
+   <comment></comment>
+   <testCaseGuid>41f9e975-db66-4726-a357-215b60c8d931</testCaseGuid>
+</TestCaseEntity>
